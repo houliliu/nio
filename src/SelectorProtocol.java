@@ -59,5 +59,6 @@ public class SelectorProtocol implements TCPProtocol {
         }
         //为读入更多的数据腾出空间
         buf.compact();
+
     }
 }
